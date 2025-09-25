@@ -75,4 +75,5 @@ jobBox.FocusLost:Connect(function(enterPressed)
     if enterPressed and jobBox.Text ~= "" then
         jobBox.Text = jobBox.Text -- Cập nhật nội dung
     end
+
 end)
